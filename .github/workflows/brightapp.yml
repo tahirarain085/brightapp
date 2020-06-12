@@ -26,7 +26,6 @@ jobs:
     - name: install node.js
       uses: actions/setup-node@v2-beta
       
-        
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install # will run `yarn install` command
